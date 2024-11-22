@@ -1,0 +1,14 @@
+.images {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+body {
+    background: aqua;
+    
+}
+hr {
+    background-color: black;
+    height: 5px;
+    border: 0;
+}
