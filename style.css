@@ -297,8 +297,7 @@ body:hover .arrow h1{
   color: white;
   font-size: 2vh;
   line-height: 0.9;
-  margin-left: 2.5vw;
-  
+  margin: 1vh 1vw;
 }
 
 .footer img {
@@ -321,5 +320,10 @@ body:hover .arrow h1{
 
 .footer_text img {
   width: 2vw;
-  position: absolute;
+  padding: 0;
+}
+
+.footer_list {
+  display: flex;
+  margin: 1vh 0;
 }
