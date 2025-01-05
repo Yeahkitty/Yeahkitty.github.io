@@ -1,5 +1,9 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.documentElement.style.overflowX = "hidden";
+});
+
 if (ScrollTrigger.isTouch !==1) {
   ScrollSmoother.create ({
     wrapper: '.wrapper',

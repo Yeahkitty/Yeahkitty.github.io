@@ -19,16 +19,18 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
 
 .img-main {
   position: static;
-  overflow-x: hidden;
+
   padding: 0;
   margin: 0;
 }
 .img-main img {
-
+  max-width: 100vw;
   max-height: 100vh;
 }
 
@@ -38,6 +40,7 @@ body {
   text-align: center;
   justify-content: center center;
   background: #000;
+  
 }
 .second-page {
   border-top: 2px;
@@ -47,9 +50,10 @@ body {
   background-image: url('files/second.jpg');
   background-position: center;
   background-repeat:space;
-  height: 90vh;
+  min-height: 90vh;
+  height: auto;
   width: 100%;
-  padding-top: 20vh;
+  
 }
 .wrap {
     padding-top: 3vh;
@@ -64,10 +68,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 60%;
+  max-width: 80%;
   height: 40%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 5%;
 }
 .second-page p {
@@ -79,7 +83,7 @@ body {
 }
 .lang {
   padding-top: 2vh;
-  font-size: 3vh; 
+  font-size: 2.5vh; 
   color:white;
   font-family: benzin;
   text-align: center;
@@ -88,6 +92,8 @@ body {
   margin-top: 4vh;
   width: 18vh;
   height: 18vh;
+  max-width: 40%;
+  max-height: 25%;
   border-width: 2px;
   border-color: white;
   border-style: solid;
