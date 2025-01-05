@@ -67,7 +67,7 @@ body {
 .four_kvadr {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 80%;
   height: 40%;
   padding-left: 10%;
