@@ -21,9 +21,6 @@
   src: url('files/LTSuperior-Medium.otf') format('truetype');
 }
 
-:root {
-  --index: calc(1vw +1vh);
-}
 
 html {
   scroll-behavior: smooth;
@@ -344,10 +341,13 @@ body:hover .arrow h1{
   color: white;
   text-shadow:5px 5px 20px #fff;
 }
-
+@media (max-width: 450px) {
+  .footer_text img {
+    max-width: 8vw;
+  }
+}
 .footer_text img {
-  min-width: 2vw;
-  max-width: 8vw;
+  width: auto;
   padding: 0;
 }
 
